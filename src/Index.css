@@ -1,0 +1,38 @@
+body{
+    /* background-color: teal; */
+}
+button{
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
+.Login{
+    background-color: red;
+}
+.JoinUs{
+    background-color: blue;
+}
+.Settings{
+    background-color: grey;
+}
+.contact{
+    background-color: yellow;
+}
+.Search{
+    background-color: black;
+}
+.Help{
+    background-color: tomato;
+}
+.Home{
+    background-color: greenyellow;
+}
+.Download{
+    background-color: teal;
+}
+#btn{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
