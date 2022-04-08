@@ -10,15 +10,16 @@ import Help from './day1comps/Help';
 import Home from './day1comps/Home';
 import Search from './day1comps/Search';
 import Btn from './day1comps/Btn';
-// import EmployeeDetail from './day2comps/EmployeeDetail'
-// import Button from './day2comps/Button'
-// import Todo from "./day2comps/Todo";
+import EmployeeDetail from './day2comps/EmployeeDetail'
+import Button from './day2comps/Button'
+import Todo from "./day2comps/Todo";
+import './Index.css'
 
 
 function App() {
     return (
         <>
-            <StaticCards/>
+            {/* <StaticCards/>
             <div id="btn">
             <JoinUs/>
             <Settings/>
@@ -41,13 +42,13 @@ function App() {
                 <Btn name="HELP" class="Help"/>
                 <Btn name="HOME" class="Home"/>
                 <Btn name="DOWNLOAD" class="Download"/>
-            </div>
-
-            {/* <div>
-                <EmployeeDetail/>
-                <Button/>
-                <Todo/>
             </div> */}
+
+            <div>
+                {/* <EmployeeDetail/> */}
+                <Button/>
+                {/* <Todo/> */}
+            </div>
         </>
     )
 }
