@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 let Button =()=>{
     const [count,setCount]=useState(0);
     const handleInc=()=>{
@@ -14,8 +15,9 @@ let Button =()=>{
     return (
         <>
         <h1>{count}</h1>
-        <button onClick={()=>handleInc()} onDoubleClick={()=>hendledbClick()}>Inc</button>
-        <button onClick={()=>handleDec()} >Dec</button>
+        <button onClick={()=>handleInc()}>Increment</button>
+        <button onClick={()=>handleDec()}>Decrement</button>
+        <button onClick={()=>hendledbClick()}>Double</button>
         </>
     )
 }

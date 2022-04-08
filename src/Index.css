@@ -5,6 +5,7 @@ button{
     padding: 5px;
     border-radius: 20px;
     color: white;
+    background-color: black;
 }
 .Login{
     background-color: red;
